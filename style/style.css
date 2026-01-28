@@ -8,3 +8,8 @@
   color: #707070;
   line-height: 1.5;
 }
+@media screen and (max-width: 768px) {
+  .text{
+    font-size: 10px;
+  }
+}
