@@ -200,13 +200,13 @@
         </section>
 
         <section
-            class="questions-container flex flex-col items-center justify-center gap-3 md:gap-6 max-w-6xl mx-2.5 my-0 mb-15 md:my-30 md:mx-auto">
+            class="questions-container flex flex-col items-center justify-center gap-3 md:gap-6 max-w-6xl mx-2.5 my-0 mb-15 md:my-30 md:mx-auto text-center">
             <h3 class="font-[garamond] font-extrabold text-2xl md:text-4xl text-[#414040]">Frequently Asked Any
                 Questions</h3>
             <p class="text md:w-[70%] lg:w-[50%] w-full mb-[22px] md:mb-11">There are many variations of passages of
                 Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 
-            <div class="questions-box flex gap-7">
+            <div class="questions-box flex gap-7 text-left">
                 <div class="questions w-full flex flex-col gap-8">
                     <div class="question bg-[#F3F3F3] rounded-lg p-8 flex flex-col gap-4">
                         <div class="flex items-center justify-between">
@@ -242,6 +242,46 @@
 
                 </div>
                 <div class="w-full hidden md:flex"><img class="w-full" src="./images/faq.png"></div>
+            </div>
+        </section>
+
+        <section class="contact flex flex-col items-center justify-center gap-3 md:gap-6 max-w-6xl mx-2.5 my-0 mb-15 md:my-30 md:mx-auto text-center">
+            <h3 class="font-[garamond] font-extrabold text-2xl md:text-4xl text-[#414040]">Contact With Us</h3>
+            <p class="text md:w-[70%] lg:w-[50%] w-full mb-[22px] md:mb-11">There are many variations of passages of
+                Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+            <div class="contact-container flex md:flex-row flex-col gap-8 w-full">
+                <div class="our-details grid grid-cols-2 md:w-6/10">
+                    <div class="detail-box px-6 py-4 md:px-16 md:py-14 bg-[#F3F3F3] flex flex-col gap-4 text-center items-center justify-center border border-t-0 border-l-0 border-r-[#E7E7E7] border-b-[#E7E7E7]">
+                        <div><img src="./images/location.png"></div>
+                        <h6 class="font-[garamond] font-extrabold text-2xl text-[#414040]">Address</h6>
+                        <p class="text">A108 Adam Street,<br>New York, NY 535022</p>
+                    </div>
+                    
+                    <div class="detail-box px-6 py-4 md:px-16 md:py-14 bg-[#F3F3F3] flex flex-col gap-4 text-center items-center justify-center border border-t-0 border-r-0 border-l-[#E7E7E7] border-b-[#E7E7E7]">
+                        <div><img src="./images/call.png"></div>
+                        <h6 class="font-[garamond] font-extrabold text-2xl text-[#414040]">Call Us</h6>
+                        <p class="text">+88 01750 00 00 00<br>+88 01750 00 00 00</p>
+                    </div>
+                    <div class="detail-box px-6 py-4 md:px-16 md:py-14 bg-[#F3F3F3] flex flex-col gap-4 text-center items-center justify-center border border-b-0 border-l-0 border-r-[#E7E7E7] border-t-[#E7E7E7]">
+                        <div><img src="./images/email.png"></div>
+                        <h6 class="font-[garamond] font-extrabold text-2xl text-[#414040]">Email Us</h6>
+                        <p class="text">info@gmail.com<br>info@gmail.com</p>
+                    </div>
+                    <div class="detail-box px-6 py-4 md:px-16 md:py-14 bg-[#F3F3F3] flex flex-col gap-4 text-center items-center justify-center border border-b-0 border-r-0 border-l-[#E7E7E7] border-t-[#E7E7E7]">
+                        <div><img src="./images/time.png"></div>
+                        <h6 class="font-[garamond] font-extrabold text-2xl text-[#414040]">Working Hours</h6>
+                        <p class="text">Mon-Fri: 9AM to 5PM<br>Sunday: 9AM to 1 PM</p>
+                    </div>
+                </div>
+
+                <div class="customer-details flex flex-col gap-4 md:w-4/10">
+                    <input type="text" placeholder="Your Name" class="p-6 bg-[#F3F3F3] w-full rounded-lg outline-none">
+                    <input type="email" placeholder="Your Email" class="p-6 bg-[#F3F3F3] w-full rounded-lg outline-none">
+                    <input type="text" placeholder="Subject" class="p-6 bg-[#F3F3F3] w-full rounded-lg outline-none">
+                    <textarea name="text" rows="6" placeholder="Your Message" class="p-6 bg-[#F3F3F3] w-full rounded-lg outline-none"></textarea>
+                    <button class="p-5 bg-[#B68C5A] w-full rounded-lg text-white text-[20px] font-semibold">Send Message</button>
+                </div>
             </div>
         </section>
     </main>
